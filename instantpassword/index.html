@@ -1,46 +1,241 @@
+<!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <meta charset="utf-8">
+    <title>InstantPassword</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Try using InstantPassword iOS App to protect your web account from hacking!">
+    <meta name="author" content="Appinephrine">
+	
+	<meta property="og:title" content="InstantPassword" />
+	<meta property="og:type" content="product" />
+	<meta property="og:url" content="http://appinephrine.com/instantpassword" />
+	<meta property="og:image" content="http://appinephrine.com/instantpassword/logo.png" />
+	<meta property="og:site_name" content="Appinephrine" />
+	<meta property="fb:app_id" content="384180974973720" />
+	<meta property="og:description" content="Try using InstantPassword iOS App to protect your web account from hacking!"/>
 
-<meta property="og:title" content="InstantPassword" />
-<meta property="og:type" content="product" />
-<meta property="og:url" content="http://appinephrine.com/instantpassword" />
-<meta property="og:image" content="http://appinephrine.com/instantpassword/logo.png" />
-<meta property="og:site_name" content="Appinephrine" />
-<meta property="fb:app_id" content="384180974973720" />
-<meta property="og:description" content="Try using InstantPassword iOS App to protect your web account from hacking!"/>
+    <!-- Le styles -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-reponsive.min.css" rel="stylesheet">
+    <link href="../js/bootstrap.min.js" rel="stylesheet">
+	
+	    <style type="text/css" media="screen">
+            .slides_container {
+                width:320px;
+                height:480px;
+            }
+            .slides_container div {
+                width:320px;
+                height:480px;
+                display:block;
+            }
+        </style>
+    
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="../js/slides.min.jquery.js"></script>
+    
+        <script>
+            $(function(){
+                $("#slides").slides({
+					slideSpeed: 300,
+					play: 3000,
+					preload: true,
+					generatePagination: false
+				});
+            });
+			
+        </script>
 
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-33584756-1']);
-  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-<script type="text/javascript">
-function redirect()
-{
-    window.location = "http://itunes.apple.com/us/app/instantpassword-protect-your/id537944965?l=en&ls=1&mt=8";
-}
-</script>
+  <body data-spy="scroll" data-target=".bs-docs-sidebar" style="background-image:url('./bg_bottom.png'); color:#eeeeee">
 
-</head>
-<body onLoad="setTimeout('redirect()', 3000)" style="background-color:#282828; color:#dddddd; text-align:center; font-family: Lucida Grande, Geneva, Verdana, Arial">
-<div style="height:200px;">
-&nbsp;
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="../index.html"><img src="../logo_white.png" /></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active">
+                <a href="./index.html" style="padding-top:16px">InstantPassword</a>
+              </li>
+            </ul>
+            <ul class="nav pull-right">
+              <li class="">
+                <a href="http://twitter.com/Appinephrine" target="_blank" style="padding-top:16px">Twitter</a>
+              </li>
+              <li class="">
+                <a href="http://facebook.com/Appinephrine" target="_blank" style="padding-top:16px">Facebook</a>
+              </li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+<div style="position:absolute; left:0px; top:0px; width:100%; height:950px; z-index:-1">
+	<div style="background-image:url('./bg_top.png'); width:100%; height:80px">
+	</div>
+
+	<div style="background-image:url('./bg.jpg'); width:100%; height:900px">
+	</div>
 </div>
 
-<img src="logo.png" />
+<div style="position:absolute; left:0px; top:380px; width:100%; height:158px; z-index:2">
+	<div style="background-image:url('./scroller.png'); width:100%; height:158px">
+	</div>
+</div>
 
-<h1 style="font-size: 1.1em">InstantPassword</h1>
-<p style="color: #282828">Try using InstantPassword iOS App to protect your web account from hacking!</p>
+	  <div style="height:80px">
+	  </div>
+	  
+<div class="container">
 
-<p style="font-size: 0.8em">Redirecting to App Store...</p>
-<p style="font-size: 0.8em">Please wait a moment or <a href="http://itunes.apple.com/us/app/instantpassword-protect-your/id537944965?l=en&ls=1&mt=8">click here</a>.</p>
 
-</body>
+    <div class="row-fluid">
+	
+	  <a href="http://itunes.apple.com/us/app/id537944965?l=en&ls=1&mt=8">
+		  <div class="span12" style="width:1024px; height:900px; background-image:url('introduce.jpg')">
+			<div style="position:relative; left:668px; top:141px; width:375px; height:480px; z-index:50;">
+			
+				<div style="position:absolute; left:-27px; top:156px; width:374px; height:158px; background-image:url('scroller_overlay.jpg'); background-repeat:no-repeat;">
+				</div>
+				
+				<div id="slides">
+					<div class="slides_container">
+						<div>
+							<img src="img/list.png">
+						</div>
+						<div>
+							<img src="img/login.png">
+						</div>
+						<div>
+							<img src="img/code.png">
+						</div>
+						<div>
+							<img src="img/ticketing.png">
+						</div>
+						<div>
+							<img src="img/ticketed.png">
+						</div>
+						<div>
+							<img src="img/shredding.png">
+						</div>
+						<div>
+							<img src="img/shredded.png">
+						</div>
+						<div>
+							<img src="img/list.png">
+						</div>
+						<div>
+							<img src="img/default.png">
+						</div>
+						<div>
+							<img src="img/passcode.png">
+						</div>
+						<div>
+							<img src="img/blank_list.png">
+						</div>
+					</div>
+				</div>
+			
+				<div style="position:absolute; left:190px; top:0; width:130px; height:363px; z-index:100">
+					<img src="glare.png" />
+				</div>
+			</div>
+			
+		  </div>
+	  </a>
+	  
+	</div>
+	  
+    <div class="row-fluid" style="position:relative;">
+      <div class="span12"  style="position:absolute;top:-80px; height: 80px; text-align:center;">
+		<div class="fb-like" data-href="http://appinephrine.com/instantpassword" data-send="true" data-layout="button_count" data-width="170" data-show-faces="true" data-colorscheme="dark"></div>
+		<div style="display:inline; position:relative; top:2px">
+		<a href="https://twitter.com/share" class="twitter-share-button" data-via="Appinephrine">Tweet</a>
+		<a href="https://twitter.com/Appinephrine" class="twitter-follow-button" data-show-count="false">Follow @Appinephrine</a>
+		</div>
+	  </div>
+	</div>
+			
+    <div class="row-fluid">
+      <div class="span4">
+        <h2>Hackers can see...</h2>
+        <p>what you're typing... and your password too!</p>
+        <p>It can protect your 'commonly-used' passwords from being leaked in vulnerable PCs - public computers like computers in internet cafes, libraries, schools or colleges.</p>
+        <p>People can use them, hackers can use them too.</p>
+      </div>
+      <div class="span4">
+        <h2>Just One-tap!</h2>
+        <p>Once you entered your web account information, then InstantPassword creates a new random password and change to it everytime whenever you need it by only one tapping.</p>
+      </div>
+      <div class="span4">
+        <h2>Passcode Protected</h2>
+        <p>You can set a passcode to keep unauthorized persons away from the app. Not only weak 4-digits, it can be any letter/any length you want.</p>
+		<p>The longer, the better.</p>
+      </div>
+    </div>
+	  
+	  <div style="height:80px">
+	  </div>
+
+    <div class="row-fluid">
+      <div class="span12">
+		  <h2>Just feel 2 minutes demo!</h2>
+		  <p>This video shows using InstantPassword on Diablo 3 with Battle.net Authenticator.</p>
+		  <iframe width="1024" height="576" src="http://www.youtube.com/embed/n67pVGhLJcE" frameborder="0" allowfullscreen></iframe>
+	  </div>
+    </div>
+	  
+    <div class="row-fluid">
+      <div class="span6">
+		<h2>On hacked PCs,</h2>
+		  <p>usually you cannot login Diablo 3 Battle.net, instead, meet 'Error 3' message.
+		  At this moment, hackers sniff your account id, password and also authenticator code and <em>steal your items, gold and your private information, too.</em></p>
+	  </div>
+      <div class="span6">
+		<h2>But, with InstantPassword,</h2>
+		  <p>your password will be changed before the first login screen to a random characters, and revert it back on 'enter authenticator code' screen.
+		  So the password sniffed hackers is useless because it was already changed. They're screwed up :)</p>
+	  </div>
+    </div>
+	  <div style="height:80px">
+	  </div>
+
+</div>
+
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+      <div class="container" style="text-align:center">
+	    <a href="../index.html"><img src="presentedby.png" /></a>
+      </div>
+    </footer>
+
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-33584756-1']);
+	  _gaq.push(['_trackPageview']);
+	</script>
+	
+	<script type="text/javascript" src="http://www.google-analytics.com/ga.js"></script>
+	<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+	
+  </body>
 </html>
